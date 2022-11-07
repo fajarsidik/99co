@@ -1,0 +1,71 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.wrapper{
+  width: 90% !important;
+  margin: 10% auto;
+}
+.flex{
+  display: flex;
+}
+.flex-column{
+  flex-direction: column;
+}
+.justify-end{
+  justify-content: flex-end;
+}
+.justify-center{
+  justify-content: center;
+}
+.justify-between{
+  justify-content: space-between;
+}
+.align-center{
+  align-items: center;
+}
+.display-linebreak {
+  white-space: pre-line;
+}
+
+@for $i from 1 through 6 {
+  /* For Margin */
+  .mb-#{$i} {
+    margin-bottom: ($i * 7) + px;
+  }
+  .mt-#{$i} {
+    margin-top: ($i * 7) + px;
+  }
+  .ml-#{$i} {
+    margin-left: ($i * 7) + px;
+  }
+  .mr-#{$i} {
+    margin-right: ($i * 7) + px;
+  }
+
+  /* For Padding */
+  .p-#{$i} {
+    padding: ($i * 7) + px;
+  }
+  .py-#{$i} {
+    padding-top: ($i * 7) + px;
+    padding-bottom: ($i * 7) + px;
+  }
+  .px-#{$i} {
+    padding-left: ($i * 7) + px;
+    padding-right: ($i * 7) + px;
+  }
+  .pb-#{$i} {
+    padding-bottom: ($i * 7) + px;
+  }
+  .pt-#{$i} {
+    padding-top: ($i * 7) + px;
+  }
+  .pl-#{$i} {
+    padding-left: ($i * 7) + px;
+  }
+  .pr-#{$i} {
+    padding-right: ($i * 7) + px;
+  }
+}

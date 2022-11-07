@@ -1,0 +1,60 @@
+@font-face { 
+  font-family: 'Avenir';
+  font-weight: normal;
+  src: url('avenir-regular.woff2') format('woff2');
+}
+@font-face { 
+  font-family: 'Avenir';
+  font-weight: 600;
+  src: url('avenir-semibold.woff2') format('woff2');
+}
+@font-face { 
+  font-family: 'Avenir';
+  font-weight: 700;
+  src: url('avenir-bold.woff2') format('woff2');
+}
+
+body{
+  font-family: 'Avenir';
+  font-weight: normal;
+  color: #1A2258;
+}
+h2{
+  font-size: 23px;
+}
+h3{
+  font-size: 19px;
+}
+h2,h3{
+  font-weight: 600;
+}
+.font-12{
+  font-size: 12px;
+}
+.font-14{
+  font-size: 14px;
+}
+.font-16{
+  font-size: 16px;
+}
+.font-normal{
+  font-weight: normal;
+}
+.font-semibold{
+  font-weight: 600;
+}
+.font-bold{
+  font-weight: 700;
+}
+.text-right{
+  text-align: right;
+}
+.text-grey{
+  color: #787D9C;
+}
+.text-blue{
+  color: #216BFF;
+}
+.text-decoration-none{
+  text-decoration: none;
+}
